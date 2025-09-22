@@ -13,12 +13,12 @@ int main(void)
     const int ver = 1;
 
     printf("=== Constants & Formats ===\n");
-    printf("Course: %s (v%d, %d)\n", COURSE_NAME, ver, YEAR);
-    printf("Title : %s\n", title);
-    printf("PI default : %f\n", PI);
-    printf("PI 2 digits : %.2f\n", PI);
-    printf("Width demo : [%*u]\n", WIDTH_COL, uval);
-    printf("Char sample : %c\n", ch);
+    printf("Course: %s (v%d, %d)\n\n", COURSE_NAME, ver, YEAR);
+    printf("Title : %s\n\n", title);
+    printf("PI default : %f\n\n", PI);
+    printf("PI 2 digits : %.2f\n\n", PI);
+    printf("Width demo : [%*u]\n\n", WIDTH_COL, uval);
+    printf("Char sample : %c\n\n", ch);
     printf("Backslash : \\\n");                          
 
     return 0;
