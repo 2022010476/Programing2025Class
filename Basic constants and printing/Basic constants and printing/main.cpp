@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	printf("=== Basic Constants ===\n\n");
-	printf("Name\t: %s\n\n", "Yeonmin");
-	printf("Initial\t: %c\n\n", 'Y');
-	printf("Age : %d\n\n", 23);
-	printf("Score\t: %.6f\n\n", 93.5);
-	printf("Count\t: %u\n\n", 3000000000U);
+	int age = 23;
+	unsigned int count = 3000000000;
+	float score = 93.5f;
+	const char* title = "Basic Constants";
+	const char* name = "Yeonmin";
+	char initial = name[0];
+	printf("=== %s ===\n Name \t : %s\n Initial : %c\n Age : %d\n Score \t : %.6f\n Count \t : %u\n", title, name, initial, age, score, count);
 	return 0;
 }
