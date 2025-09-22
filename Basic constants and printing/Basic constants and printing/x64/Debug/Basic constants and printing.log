@@ -1,2 +1,3 @@
-﻿  main.cpp
-  Basic constants and printing.vcxproj -> C:\Users\ansys22\Documents\GitHub\Programing2025Class\Basic constants and printing\x64\Debug\Basic constants and printing.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(Basic constants and printing.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  main.cpp
+  Basic constants and printing.vcxproj -> C:\Users\ansys22\Documents\GitHub\Programing2025Class\Basic constants and printing\x64\Debug\20250922(1).exe
