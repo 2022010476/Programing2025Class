@@ -5,6 +5,12 @@ int main(void)
 	int age = 25, chest = 95;
 	char size;
 
+	printf("나이를 입력하세요: ");
+	scanf_s("%d", &age);
+
+	printf("가슴둘레(cm)를 입력하세요: ");
+	scanf_s("%d", &chest);
+
 	if (age < 20)
 	{
 		if (chest < 85)
