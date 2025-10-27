@@ -1,10 +1,10 @@
 #include<stdio.h>
-#define NUM_PRINT 0
+#define NUM_PRINT 5
 void PrintHelloWorld(int nCount);
 
 int main(void)
 {
-	int nCount = 5;
+	int nCount = 0;
 	PrintHelloWorld(nCount);
 	return 0;
 }
@@ -16,7 +16,7 @@ void PrintHelloWorld(int nCount)
 		return;
 	}
 	printf("Hello, World!(%d)\n", nCount);
-	PrintHelloWorld(--nCount);
+	PrintHelloWorld(++nCount);
 	printf("jam\n");
 	return;
 }
