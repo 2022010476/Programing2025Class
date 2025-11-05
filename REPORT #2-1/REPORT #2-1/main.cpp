@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int person;
+    float load, total;
+
+    printf("½Â°´ ¼ö¿Í ÁüÀÇ ¹«°Ô(kg)¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    scanf_s("%d %f", &person, &load);
+
+    if (person < 1 || person > 3 || load < 0) {
+        printf("invalid input\n");
+        return 0;
+    }
+
+    total = person * 70 + load;
+
+    if (total <= 600)
+        printf("OK (ÃÑÇÏÁß: %.1fkg)\n", total);
+    else
+        printf("Overload (ÃÑÇÏÁß: %.1fkg)\n", total);
+
+    return 0;
+}
