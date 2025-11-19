@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> // 표준편차 계산을 위해 math 헤더파일 사용
 
 int main(void)
 {
