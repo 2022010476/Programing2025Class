@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rx755\\OneDrive\\documents\\GitHub\\Programing2025Class\\REPORT3 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B42841EA-C14E-43D7-84C0-44BED9C90F80}|REPORT3 5\\REPORT3 5.vcxproj|C:\\Users\\rx755\\OneDrive\\documents\\GitHub\\Programing2025Class\\REPORT3 5\\REPORT3 5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B42841EA-C14E-43D7-84C0-44BED9C90F80}|REPORT3 5\\REPORT3 5.vcxproj|solutionrelative:REPORT3 5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\rx755\\OneDrive\\documents\\GitHub\\Programing2025Class\\REPORT3 5\\REPORT3 5\\main.cpp",
+              "RelativeDocumentMoniker": "REPORT3 5\\main.cpp",
+              "ToolTip": "C:\\Users\\rx755\\OneDrive\\documents\\GitHub\\Programing2025Class\\REPORT3 5\\REPORT3 5\\main.cpp*",
+              "RelativeToolTip": "REPORT3 5\\main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-04T11:23:27.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
