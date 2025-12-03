@@ -44,7 +44,7 @@ int main() {
     srand((unsigned int)time(NULL)); // 랜덤 시드 초기화
 
     // 정수/실수 선택
-    printf("배열을 정수로 생성할지(1), 실수로 생성할지(2) 선택: ");
+    printf("생성 방식을 선택하세요 (1 = 정수, 2 = 실수): ");
     scanf_s("%d", &type);
 
     // 랜덤 배열 생성
