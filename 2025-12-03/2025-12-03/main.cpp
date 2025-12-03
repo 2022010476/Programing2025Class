@@ -52,7 +52,7 @@ int main(void)
 
     // ----------------------------------------------
     /* 이유: 이전 scanf가 남긴 '\n'을 제거하여
-       다음 fgets가 정상적으로 전체 문장을 입력받도록 하기 위함*/
+       다음 fgets가 정상적으로 전체 문장을 입력받도록 하기 위함 */
     clear_input_buffer();
 
     printf("\nEnter one sentence (can include spaces): ");
@@ -64,7 +64,7 @@ int main(void)
 
     // ----------------------------------------------
     // strcpy를 사용하여 str1을 copy 배열에 복사하는 기능
-    printf("\n--- Practice #1: 문자열 복사(strcpy) ---\n");
+    printf("\n--- Practice #1: 문자열 복사 ---\n");
     strcpy(p_copy, p_str1);
     printf("copy = ");
     puts(p_copy);
@@ -73,7 +73,7 @@ int main(void)
 
     // ----------------------------------------------
     // 문자열 이어붙이기를 수행하는 부분
-    printf("\n--- Practice #2: 문자열 연결(strcat) ---\n");
+    printf("\n--- Practice #2: 문자열 연결 ---\n");
     if (strlen(p_str1) + strlen(p_str2) < sizeof(str1)) {
         strcat(p_str1, p_str2);
         printf("After concatenation, str1 = ");
@@ -87,7 +87,7 @@ int main(void)
 
     // ----------------------------------------------
     // strcmp를 사용하여 str1과 str2를 사전순 비교하는 기능
-    printf("\n--- Practice #3: 문자열 비교(strcmp) ---\n");
+    printf("\n--- Practice #3: 문자열 비교 ---\n");
     {
         int cmp = strcmp(p_str1, p_str2);
         if (cmp == 0) {
@@ -105,7 +105,7 @@ int main(void)
 
     // ----------------------------------------------
     // strchr로 str1에서 특정 문자 위치 찾기
-    printf("\n--- Practice #4: 특정 문자 검색(strchr) ---\n");
+    printf("\n--- Practice #4: 특정 문자 검색 ---\n");
     printf("\nEnter a character to search for: ");
     scanf(" %c", &ch);
 
@@ -122,7 +122,7 @@ int main(void)
 
     // ----------------------------------------------
     // strstr를 사용하여 sentence 안에서 str2 검색
-    printf("\n--- Practice #5: 부분 문자열 검색(strstr) ---\n");
+    printf("\n--- Practice #5: 부분 문자열 검색 ---\n");
     pos = strstr(p_sentence, p_str2);
     if (pos != NULL) {
         printf("Found \"%s\" inside sentence.\n", p_str2);
@@ -137,7 +137,7 @@ int main(void)
 
     // ----------------------------------------------
     // strtok로 문장을 공백 단위로 잘라 토큰화
-    printf("\n--- Practice #6: 문자열 분리(strtok) ---\n");
+    printf("\n--- Practice #6: 문자열 분리 ---\n");
     printf("\n--- strtok practice: split sentence by spaces ---\n");
 
     // 이유: strtok는 원본 문자열을 파괴하므로 sentence 내용을 보호하기 위함
